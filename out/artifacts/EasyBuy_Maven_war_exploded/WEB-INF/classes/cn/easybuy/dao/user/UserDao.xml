@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.user.UserDao">
+    <resultMap id="userList" type="User">
+        <id property="id" column="id" />
+        <result property="loginName" column="loginName"/>
+        <result property="userName" column="userName" />
+        <result property="password" column="password" />
+        <result property="sex" column="sex" />
+        <result property="identityCode" column="identityCode" />
+        <result property="email" column="email" />
+        <result property="mobile" column="mobile" />
+        <result property="type" column="type" />
+    </resultMap>
+    <!--新增用户信息-->
+    <insert id="add">
+        INSERT into easybuy_user(loginName,userName,password,sex,identityCode,email,mobile) values(#{loginName},#{userName},#{password},#{sex},#{identityCode},#{email},#{mobile})
+    </insert>
+    <!--//更新用户信息-->
+    <update id="update">
+        UPDATE easybuy_user
+        <set>
+            <if test="loginName != null and loginName != ''">
+                loginName=#{loginName},
+            </if>
+
+            <if test="userName != null and userName != ''">
+                userName =#{userName},
+            </if>
+
+            <if test="type != null ">
+                type=#{type},
+            </if>
+
+            <if test="sex != null">
+                sex=#{sex},
+            </if>
+
+            <if test="identityCode != null and identityCode != ''">
+                identityCode=#{identityCode},
+            </if>
+
+            <if test="email != null and email != ''">
+                email=#{email},
+            </if>
+
+            <if test="mobile != null and mobile != ''">
+                mobile=#{mobile},
+            </if>
+        </set>
+        WHERE id =#{id}
+    </update>
+    <!--根据id删除用户-->
+    <delete id="deleteUserById">
+        delete from easybuy_user where id = #{id}
+    </delete>
+    <!--查询用户列表-->
+    <select id="getUserList" resultMap="userList">
+        select * from easybuy_user limit #{currentPageNo},#{pageSize}
+    </select>
+    <!--用户总个数-->
+    <select id="count" resultType="int">
+        select count(*) from easybuy_user
+    </select>
+    <!--根据id和用户名查找用户-->
+    <select id="getUser" resultMap="userList">
+        select * from easybuy_user
+        <where>
+            <if test="id != null">
+                and id= #{id}
+            </if>
+            <if test="loginName != null and loginName != ''">
+                and loginName = #{loginName}
+            </if>
+        </where>
+
+    </select>
+</mapper>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.news.NewsDao">
+    <resultMap id="newsList" type="News">
+        <id property="id" column="id" />
+        <result property="title" column="title"/>
+        <result property="content" column="content" />
+        <result property="createTime" column="createTime"/>
+    </resultMap>
+    <!--添加新闻-->
+    <insert id="add">
+        insert into easybuy_new(title,content,createTime) Values(#{title},#{content},#{createTime});
+    </insert>
+    <!--修改新闻-->
+    <update id="update">
+        update easybuy_news
+        <set>
+            <if test="title != null and title !=''">
+                title = #{title},
+            </if>
+            <if test="content != null and content != ''">
+                content = #{content},
+            </if>
+            <if test="createTime != null and createTime != ''">
+                createTime = #{createTime},
+            </if>
+            where id = #{id}
+        </set>
+    </update>
+    <!--根据id删除新闻-->
+    <delete id="deleteById">
+        delete from easybuy_news where id = #{id}
+    </delete>
+    <!--根据id查询新闻-->
+    <select id="getNewsById" resultMap="newsList">
+        select * from easybuy_news where id = #{id}
+    </select>
+    <!--查询新闻列表-->
+    <select id="queryNewsList" resultMap="newsList">
+        select * from easybuy_news
+        <where>
+            <if test="title != null and title != ''">
+                and title like concat{'%',#{title},'%'}
+            </if>
+            <if test="sort != null and sort != ''">
+                order by #{sort}
+            </if>
+        </where>
+
+        <if test="isPage">
+            limit #{startIndex},#{pageSize}
+        </if>
+
+    </select>
+    <!--查询新闻的数目-->
+    <select id="queryNewsCount" resultType="int">
+        select count(*) FROM easybuy_news
+        <where>
+            <if test="title != null and title != ''">
+                and title like concat{'%',#{title},'%'}
+            </if>
+        </where>
+    </select>
+</mapper>

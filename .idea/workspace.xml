@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EasyBuy-Maven:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae43fd92-d54b-438d-8b25-f823c03ded1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EasyBuy_Maven_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/news/newsDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/news/newsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/order/orderDetailList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/order/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/product/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/product/toAddProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/productCategory/productCategoryList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/productCategory/toAddProductCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/user/toUpdateUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/user/userInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/backend/user/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/META-INF/EasyBuy-Maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/backend/AdminNewsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/backend/AdminOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/backend/AdminProductCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/backend/AdminProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/backend/AdminUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/pre/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/pre/FavoriteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/pre/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/pre/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/pre/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/controller/pre/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/BaseDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/IBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/news/NewsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/news/NewsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/order/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/order/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/order/OrderDetailDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/order/OrderDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/order/UserAddressDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/order/UserAddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/product/ProductCategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/product/ProductCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/product/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/product/ProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/user/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/dao/user/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/entity/News.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/entity/ProductCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/entity/UserAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/filter/AdminUserPowerFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/param/NewsParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/param/OrderDetailParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/param/OrderParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/param/ProductCategoryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/param/ProductParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/param/UserAddressParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/param/UserParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/news/NewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/news/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/order/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/order/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/order/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/order/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/product/ProductCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/product/ProductCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/product/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/product/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/user/UserAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/user/UserAddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/Constants$ReturnResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/Constants$UserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/DataSourceUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/EmptyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/MapperUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/MemcachedUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/OrderVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/Pager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/PrintUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/ProductCategoryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/RegUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/ReturnResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/SecurityUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/ShoppingCartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/cn/easybuy/utils/UniqueConstraintException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/backend/leftBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/backend/searchBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/pre/categoryBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/pre/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/pre/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/pre/managerBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/pre/pagerBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/common/pre/searchBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/aspectjweaver-1.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/commons-io-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/commons-pool-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/druid-1.1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/fastjson-1.2.58.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/java-memcached-2.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/javax.jms-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/javax.persistence-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/javax.resource-api-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/javax.transaction-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/jms-api-1.1-rev-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/jta-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/junit-3.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-aop-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-beans-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-context-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-expression-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-jdbc-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-tx-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-web-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/spring-webmvc-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/product/favoriteList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/product/productDeatil.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/product/queryProductList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/settlement/settlement1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/settlement/settlement2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/settlement/settlement3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/pre/settlement/toSettlement.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/css/MagicZoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/css/ShopShow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/08BE30BF7B5F4930B0093D8CC4056057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/161F355A8A8549BA8F7F4CE3B4F07E40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/16290C4DBEAC4F00A636667019621468.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/1A836D2B3A3348DDAB19807E6CEA8028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/1DBC0930641D43C29D74A9E1B40FEEBB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/272CC434BE7A4469AB0E7882BD1A85FF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/27A1789ED5764D82A5506DF3DC3933F9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/2E1D2A5E65A94FEEA17C72E47C530057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/2E5A16E21E0640E0BAE03E9B995DCD28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/30B5547CD7384DAA8A2F4F4D8C0BBF89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/3686592A1DE44D8A946259D6F064D0FA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/3B059EDB5237407980458CE9EA9D3204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/3C465E7B8A324A8DA2A2EEE202E36166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/401004B3D47C4C6FB1BC5EF19C21FC77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/40C3B76BA31246618E3CFC8723D33517.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/443E5A4122064209AFE89250179A2FF0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/48BC371A85A548B7A7589E3F542D911D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/4D9499BAD92A42D291094E797BA2EA3F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/63F5BD4206074FF998C5763BF038E996.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/66E96AF9E9714A5C9EA901811173D662.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/7121E55099FC477680B1229205CE3D29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/72F75A371B0B4C26A7F72FAAEF96FC68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/9181358A6E5E45C79D510198290A3AF7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/956DB0BEC41B41B8A06C05C950130E23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/9C006B8BD1AD45398F474A8471ADC50B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/9ED375098D42497B8FC33167E06D0EE8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/A5AF40825E6940B2A59A040100E181A8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/A62C6DF55116440CA3DE9DB37901ED4F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/A7436BC607E74C81B392DCFE69D4AEAB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/A9924F9DB68B4DF99FDBF05902075AF0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/BD5C77465DC2466BBCE7F95FB9764392.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/CBC98D3C9E544830821632F5C313D93E.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/D1AC9AE71ED348FA8D880FD4279D3422.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/D6C9BD438C5643D6B1A6C52E5426FE22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/DB86CA25CA4F4B4AA906F46BE542C6A6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/E03D74145A034F6D909879829CB99D80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/E6CCDC343ACC471C908E9748776C6421.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/EAA8E66259BF4239B4A2237B62520EF1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/ED7921DE40FC47E18365754709A21194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/F24B4140A2284B3788A38F3B5AD1809A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/files/F3921E12552A4D0AA3F75467B146A959.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/a_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/a_link.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/add_ad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_sh_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/b_sh_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/baby_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/bb_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/bk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/bk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/bk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/bk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/bk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/box_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/brand1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/brand2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/brand3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/brand4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/brand5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/btn_jud.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/btn_log.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/btn_sure.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/buy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/buy2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/c_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/c_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/c_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/c_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/c_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/c_ts.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ca_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ca_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ca_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ca_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/car1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/car2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/care.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/cars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/cars_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/d_a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/d_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/de1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/de2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/de3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/de4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/de5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/equl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/er.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/food_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/fre_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/h_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hb_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/heart_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/his_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/his_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/his_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/his_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/his_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/home_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/hot4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_down_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_mem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_num.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/i_up_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/j_car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/jia.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/jia_b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/jian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_2_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_3_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_4_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/l_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/logo.png.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/m_i_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/m_i_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/m_i_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/m_i_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/m_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/make_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/mat_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/mat_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/mat_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/mban_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/mban_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/milk_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/mores.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/n_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/n_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/n_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/n_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/n_not.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nav9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/nban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/p_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pa_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/paper_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/peo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/peo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/peo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/peo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/peo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/peo_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/per_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ph_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ph_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ph_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ph_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ph_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ph_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/pro8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ps1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ps2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ps3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ps4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/r_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/r_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/s_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/s_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/s_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/s_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/s_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/s_txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sbrand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/sh_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/simg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/suc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/t_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tel_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tj_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tj_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tj_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/tm_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/images/z_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/backend/backend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/cart/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/MagicZoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/ShopShow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/baby_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/bban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/f_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/fban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/hban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/iban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/iepng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/jquery-1.11.1.min_044d0927.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/jquery.bxslider_e88acd1b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/jquery.soChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/lrscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/lrscroll_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/mban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/milk_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/n_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/p_tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/paper_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/s_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/shade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/tban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/common/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_Maven_war_exploded/statics/js/register/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/news/newsDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/news/newsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/order/orderDetailList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/order/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/product/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/product/toAddProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/productCategory/productCategoryList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/productCategory/toAddProductCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/user/toUpdateUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/user/userInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/backend/user/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/META-INF/EasyBuy-Maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/BaseDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/IBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/news/NewsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/news/NewsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/order/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/order/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/order/OrderDetailDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/order/OrderDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/order/UserAddressDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/order/UserAddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/product/ProductCategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/product/ProductCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/product/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/product/ProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/user/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/dao/user/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/entity/News.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/entity/ProductCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/entity/UserAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/filter/AdminUserPowerFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/param/NewsParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/param/OrderDetailParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/param/OrderParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/param/ProductCategoryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/param/ProductParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/param/UserAddressParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/param/UserParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/news/NewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/news/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/order/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/order/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/order/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/order/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/product/ProductCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/product/ProductCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/product/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/product/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/user/UserAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/user/UserAddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/Constants$ReturnResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/Constants$UserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/DataSourceUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/EmptyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/MapperUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/MemcachedUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/OrderVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/Pager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/PrintUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/ProductCategoryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/RegUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/ReturnResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/SecurityUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/ShoppingCartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/utils/UniqueConstraintException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/AbstractServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/backend/AdminNewsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/backend/AdminOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/backend/AdminProductCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/backend/AdminProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/backend/AdminUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/CartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/FavoriteServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/NewsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/ProductCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/ProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/RegisterServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/cn/easybuy/web/pre/UserAdressServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/backend/leftBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/backend/searchBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/pre/categoryBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/pre/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/pre/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/pre/managerBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/pre/pagerBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/common/pre/searchBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/commons-io-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.58.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/java-memcached-2.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/javax.jms-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/javax.resource-api-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/javax.transaction-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/jms-api-1.1-rev-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/jta-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/junit-3.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/product/favoriteList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/product/productDeatil.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/product/queryProductList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/settlement/settlement1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/settlement/settlement2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/settlement/settlement3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/pre/settlement/toSettlement.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/news/newsDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/news/newsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/order/orderDetailList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/order/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/product/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/product/toAddProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/productCategory/productCategoryList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/productCategory/toAddProductCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/user/toUpdateUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/user/userInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/backend/user/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/backend/leftBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/backend/searchBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/pre/categoryBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/pre/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/pre/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/pre/managerBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/pre/pagerBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/common/pre/searchBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/08BE30BF7B5F4930B0093D8CC4056057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/161F355A8A8549BA8F7F4CE3B4F07E40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/16290C4DBEAC4F00A636667019621468.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/1A836D2B3A3348DDAB19807E6CEA8028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/1DBC0930641D43C29D74A9E1B40FEEBB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/272CC434BE7A4469AB0E7882BD1A85FF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/27A1789ED5764D82A5506DF3DC3933F9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/2E1D2A5E65A94FEEA17C72E47C530057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/2E5A16E21E0640E0BAE03E9B995DCD28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/30B5547CD7384DAA8A2F4F4D8C0BBF89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/3686592A1DE44D8A946259D6F064D0FA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/3B059EDB5237407980458CE9EA9D3204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/3C465E7B8A324A8DA2A2EEE202E36166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/401004B3D47C4C6FB1BC5EF19C21FC77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/40C3B76BA31246618E3CFC8723D33517.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/443E5A4122064209AFE89250179A2FF0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/48BC371A85A548B7A7589E3F542D911D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/4D9499BAD92A42D291094E797BA2EA3F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/63F5BD4206074FF998C5763BF038E996.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/66E96AF9E9714A5C9EA901811173D662.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/7121E55099FC477680B1229205CE3D29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/72F75A371B0B4C26A7F72FAAEF96FC68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/9181358A6E5E45C79D510198290A3AF7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/956DB0BEC41B41B8A06C05C950130E23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/9C006B8BD1AD45398F474A8471ADC50B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/9ED375098D42497B8FC33167E06D0EE8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/A5AF40825E6940B2A59A040100E181A8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/A62C6DF55116440CA3DE9DB37901ED4F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/A7436BC607E74C81B392DCFE69D4AEAB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/A9924F9DB68B4DF99FDBF05902075AF0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/BD5C77465DC2466BBCE7F95FB9764392.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/CBC98D3C9E544830821632F5C313D93E.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/D1AC9AE71ED348FA8D880FD4279D3422.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/D6C9BD438C5643D6B1A6C52E5426FE22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/DB86CA25CA4F4B4AA906F46BE542C6A6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/E03D74145A034F6D909879829CB99D80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/E6CCDC343ACC471C908E9748776C6421.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/EAA8E66259BF4239B4A2237B62520EF1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/ED7921DE40FC47E18365754709A21194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/F24B4140A2284B3788A38F3B5AD1809A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/files/F3921E12552A4D0AA3F75467B146A959.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/product/favoriteList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/product/productDeatil.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/product/queryProductList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/settlement/settlement1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/settlement/settlement2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/settlement/settlement3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/pre/settlement/toSettlement.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/css/MagicZoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/css/ShopShow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/a_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/a_link.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/add_ad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_sh_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/b_sh_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/baby_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/bb_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/bk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/bk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/bk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/bk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/bk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/box_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/brand1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/brand2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/brand3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/brand4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/brand5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/btn_jud.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/btn_log.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/btn_sure.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/buy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/buy2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/c_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/c_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/c_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/c_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/c_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/c_ts.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ca_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ca_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ca_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ca_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/car1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/car2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/care.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/cars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/cars_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/d_a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/d_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/de1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/de2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/de3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/de4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/de5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/equl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/er.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/food_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/fre_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/h_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hb_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/heart_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/his_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/his_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/his_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/his_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/his_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/home_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/hot4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_down_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_mem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_num.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/i_up_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/j_car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/jia.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/jia_b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/jian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_2_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_3_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_4_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/l_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/logo.png.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/m_i_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/m_i_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/m_i_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/m_i_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/m_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/make_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/mat_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/mat_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/mat_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/mban_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/mban_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/milk_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/mores.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/n_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/n_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/n_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/n_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/n_not.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nav9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/nban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/p_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pa_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/paper_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/peo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/peo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/peo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/peo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/peo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/peo_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/per_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ph_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ph_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ph_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ph_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ph_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ph_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/pro8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ps1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ps2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ps3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ps4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/r_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/r_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/s_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/s_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/s_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/s_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/s_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/s_txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sbrand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/sh_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/simg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/suc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/t_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tel_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tj_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tj_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tj_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/tm_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/images/z_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/backend/backend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/cart/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/MagicZoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/ShopShow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/baby_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/bban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/f_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/fban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/hban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/iban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/iepng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/jquery-1.11.1.min_044d0927.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/jquery.bxslider_e88acd1b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/jquery.soChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/lrscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/lrscroll_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/mban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/milk_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/n_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/p_tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/paper_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/s_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/shade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/tban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/common/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EasyBuy-Maven-1.0-SNAPSHOT/statics/js/register/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/EasyBuy-Maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/backend/AdminNewsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/backend/AdminOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/backend/AdminProductCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/backend/AdminProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/backend/AdminUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/pre/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/pre/FavoriteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/pre/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/pre/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/pre/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/controller/pre/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/BaseDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/IBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/news/NewsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/news/NewsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/order/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/order/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/order/OrderDetailDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/order/OrderDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/order/UserAddressDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/order/UserAddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/product/ProductCategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/product/ProductCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/product/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/product/ProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/user/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/dao/user/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/entity/News.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/entity/ProductCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/entity/UserAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/filter/AdminUserPowerFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/param/NewsParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/param/OrderDetailParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/param/OrderParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/param/ProductCategoryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/param/ProductParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/param/UserAddressParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/param/UserParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/news/NewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/news/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/order/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/order/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/order/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/order/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/product/ProductCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/product/ProductCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/product/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/product/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/user/UserAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/user/UserAddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/Constants$ReturnResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/Constants$UserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/DataSourceUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/EmptyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/MapperUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/MemcachedUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/OrderVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/Pager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/PrintUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/ProductCategoryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/RegUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/ReturnResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/SecurityUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/ShoppingCartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/easybuy/utils/UniqueConstraintException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="EasyBuy-Maven" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\ideaWorkspaces\EasyBuy-Maven\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\SoftWare\repository" />
+        <option name="mavenHome" value="E:/SoftWare/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="E:\SoftWare\apache-maven-3.5.3\conf\settings.xml" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V6FiCj8LHZcMtjlLmxB7ChdDx6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven\src\main\webapp\WEB-INF" />
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven\src\main\webapp\statics" />
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven\src\main\java\cn\easybuy\web\backend" />
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven\src\main\webapp" />
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven\src\main\resources" />
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven\src\main\java\cn\easybuy" />
+      <recent name="E:\ideaWorkspaces\EasyBuy-Maven" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn dependency:tree" />
+      <command value="mvn install:install-file -Dfile=E:\ideaWorkspaces\EasyBuy\web\WEB-INF\lib\java_memcached-release_2.6.6.jar -DgroupId=com.danga-DartifactId=java-memcached  -Dversion=2.6.6 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=E:\ideaWorkspaces\EasyBuy\web\WEB-INF\lib\java_memcached-release_2.6.3.jar -DgroupId=com.danga-DartifactId=java-memcached  -Dversion=2.6.3 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=D:/java_memcached-release_2.6.6.jar -DgroupId=com.danga-DartifactId=java-memcached  -Dversion=2.6.6 -Dpackaging=jar" />
+      <command value="mvn mvn install:install-file -Dfile=D:/java_memcached-release_2.6.6.jar -DgroupId=com.danga -DartifactId=java-memcached  -Dversion=2.6.6 -Dpackaging=jar " />
+      <command value="mvn tomcat7:run" />
+      <command value="mvn install" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="EasyBuy-Maven:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/EasyBuy" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_EasyBuy-Maven_5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62695" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="EasyBuy-Maven:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFiles" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae43fd92-d54b-438d-8b25-f823c03ded1e" name="Default Changelist" comment="" />
+      <created>1576565762173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576565762173</updated>
+      <workItem from="1576565766739" duration="522000" />
+      <workItem from="1576566307982" duration="16683000" />
+      <workItem from="1576629199102" duration="6966000" />
+      <workItem from="1576638243362" duration="89000" />
+      <workItem from="1576638528023" duration="372000" />
+      <workItem from="1576640277549" duration="678000" />
+      <workItem from="1576643020263" duration="83000" />
+      <workItem from="1576651752984" duration="3437000" />
+      <workItem from="1576716261997" duration="2516000" />
+      <workItem from="1576722745162" duration="10038000" />
+      <workItem from="1576737365349" duration="2284000" />
+      <workItem from="1576763509410" duration="386000" />
+      <workItem from="1576764385737" duration="8000" />
+      <workItem from="1576764882002" duration="594000" />
+      <workItem from="1576804752092" duration="462000" />
+      <workItem from="1576811898370" duration="5890000" />
+      <workItem from="1576825395080" duration="5000" />
+      <workItem from="1576828807729" duration="711000" />
+      <workItem from="1576829647951" duration="580000" />
+      <workItem from="1577097330879" duration="130000" />
+      <workItem from="1577097617602" duration="43000" />
+      <workItem from="1577097739446" duration="1681000" />
+      <workItem from="1577099461539" duration="720000" />
+      <workItem from="1577100521896" duration="41000" />
+      <workItem from="1577100795748" duration="2562000" />
+      <workItem from="1577106316709" duration="32000" />
+      <workItem from="1577106439663" duration="8000" />
+      <workItem from="1577108009893" duration="1638000" />
+      <workItem from="1577256647534" duration="4050000" />
+      <workItem from="1577514667199" duration="524000" />
+      <workItem from="1577515221026" duration="378000" />
+      <workItem from="1577515663504" duration="297000" />
+      <workItem from="1577518580878" duration="1257000" />
+      <workItem from="1577520229869" duration="2422000" />
+      <workItem from="1577523331303" duration="24000" />
+      <workItem from="1577534376886" duration="1281000" />
+      <workItem from="1577598581451" duration="19714000" />
+      <workItem from="1577678893665" duration="15702000" />
+      <workItem from="1577751932851" duration="4529000" />
+    </task>
+    <task id="LOCAL-00001" summary="2019/12/31">
+      <created>1577773128891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577773128891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="2019/12/31" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/12/31" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Plugins" timestamp="1576738705721">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1576738705721" />
+    <state x="366" y="7" key="#Tomcat9.0.27" timestamp="1577518679512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="366" y="7" key="#Tomcat9.0.27/0.0.1366.728@0.0.1366.728" timestamp="1577518679512" />
+    <state x="364" y="0" width="652" height="728" key="#Tomcat_9.0.27" timestamp="1576589346080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="364" y="0" width="652" height="728" key="#Tomcat_9.0.27/0.0.1366.728@0.0.1366.728" timestamp="1576589346080" />
+    <state x="282" y="21" key="#Tomcat_Server" timestamp="1577518705276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="282" y="21" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1577518705276" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577602444440">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577602444440" />
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1576822043990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1576822043990" />
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577522348437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1577522348437" />
+    <state x="275" y="24" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1576589382127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1576589382127" />
+    <state x="332" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577630774732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="332" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1577630774732" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1577773095923">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577773095923" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1577773510467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1577773510467" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1577772553576">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577772553576" />
+    <state x="492" y="276" key="Github.CreateGistDialog" timestamp="1577771326872">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="276" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1577771326872" />
+    <state x="537" y="258" key="Github.ShareDialog" timestamp="1577774148809">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="537" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1577774148809" />
+    <state width="904" height="159" key="GridCell.Tab.-1.bottom" timestamp="1577692922125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.-1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577692922125" />
+    <state width="904" height="159" key="GridCell.Tab.-1.center" timestamp="1577692922125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.-1.center/0.0.1366.728@0.0.1366.728" timestamp="1577692922125" />
+    <state width="904" height="159" key="GridCell.Tab.-1.left" timestamp="1577692922125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.-1.left/0.0.1366.728@0.0.1366.728" timestamp="1577692922125" />
+    <state width="904" height="159" key="GridCell.Tab.-1.right" timestamp="1577692922125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.-1.right/0.0.1366.728@0.0.1366.728" timestamp="1577692922125" />
+    <state width="904" height="159" key="GridCell.Tab.0.bottom" timestamp="1577696416692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577696416692" />
+    <state width="904" height="159" key="GridCell.Tab.0.center" timestamp="1577696416692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577696416692" />
+    <state width="904" height="159" key="GridCell.Tab.0.left" timestamp="1577696416692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577696416692" />
+    <state width="904" height="159" key="GridCell.Tab.0.right" timestamp="1577696416692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577696416692" />
+    <state width="904" height="159" key="GridCell.Tab.1.bottom" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="159" key="GridCell.Tab.1.center" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="159" key="GridCell.Tab.1.left" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="159" key="GridCell.Tab.1.right" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="370" key="GridCell.Tab.14.bottom" timestamp="1577514780362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="370" key="GridCell.Tab.14.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577514780362" />
+    <state width="904" height="370" key="GridCell.Tab.14.center" timestamp="1577514780362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="370" key="GridCell.Tab.14.center/0.0.1366.728@0.0.1366.728" timestamp="1577514780362" />
+    <state width="904" height="370" key="GridCell.Tab.14.left" timestamp="1577514780361">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="370" key="GridCell.Tab.14.left/0.0.1366.728@0.0.1366.728" timestamp="1577514780361" />
+    <state width="904" height="370" key="GridCell.Tab.14.right" timestamp="1577514780362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="370" key="GridCell.Tab.14.right/0.0.1366.728@0.0.1366.728" timestamp="1577514780362" />
+    <state width="904" height="159" key="GridCell.Tab.2.bottom" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="159" key="GridCell.Tab.2.center" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="159" key="GridCell.Tab.2.left" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="159" key="GridCell.Tab.2.right" timestamp="1577696416693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="159" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1577696416693" />
+    <state width="904" height="72" key="GridCell.Tab.3.bottom" timestamp="1577690873908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="72" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577690873908" />
+    <state width="904" height="72" key="GridCell.Tab.3.center" timestamp="1577690873907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="72" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1577690873907" />
+    <state width="904" height="72" key="GridCell.Tab.3.left" timestamp="1577690873907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="72" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1577690873907" />
+    <state width="904" height="72" key="GridCell.Tab.3.right" timestamp="1577690873907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="72" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1577690873907" />
+    <state x="206" y="36" key="Maven.ArtifactSearchDialog" timestamp="1576812038698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="206" y="36" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1576812038698" />
+    <state x="163" y="0" width="1040" height="728" key="SettingsEditor" timestamp="1577774030430">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" width="1040" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577774030430" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1577773781861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577773781861" />
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1577751932862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577751932862" />
+    <state x="456" y="100" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1577772713117">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="456" y="100" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728@0.0.1366.728" timestamp="1577772713117" />
+    <state x="477" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577772842020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577772842020" />
+    <state x="472" y="165" key="git4idea.merge.GitPullDialog" timestamp="1577773161797">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="472" y="165" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1577773161797" />
+    <state x="53" y="58" key="new project wizard" timestamp="1576637616225">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="58" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576637616225" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1576737477312">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576737477312" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1577679448012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577679448012" />
+    <state x="341" y="55" key="spring file set editor" timestamp="1576586817186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="341" y="55" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1576586817186" />
+    <state x="453" y="54" key="svn.repositoryBrowser" timestamp="1577519271327">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="54" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1577519271326" />
+    <state x="488" y="272" key="svn.upgradeDialog" timestamp="1577519272525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="272" key="svn.upgradeDialog/0.0.1366.728@0.0.1366.728" timestamp="1577519272525" />
+  </component>
+</project>

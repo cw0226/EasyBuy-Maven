@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.product.ProductDao">
+    <resultMap id="productList" type="Product">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="description" column="description"/>
+        <result property="price" column="price"/>
+        <result property="stock" column="stock"/>
+        <result property="categoryLevel1Id" column="categoryLevel1Id"/>
+        <result property="categoryLevel2Id" column="categoryLevel2Id"/>
+        <result property="categoryLevel3Id" column="categoryLevel3Id"/>
+        <result property="fileName" column="fileName"/>
+    </resultMap>
+    <!--根据id修改stock-->
+    <update id="updateStock">
+        update easybuy_product set stock=#{stock} where id=#{id}
+    </update>
+    <!--添加-->
+    <insert id="add">
+        insert into easybuy_product(`name`,description,price,stock,categoryLevel1Id,categoryLevel2Id,categoryLevel3Id,fileName)
+        values(#{name},#{description},#{price},#{stock},#{categoryLevel1Id},#{categoryLevel2Id},#{categoryLevel3Id},#{fileName})
+    </insert>
+    <!--修改-->
+    <update id="update">
+        update easybuy_product
+        <where>
+            <if test="name != null and name != '' ">
+                name = #{name},
+            </if>
+            <if test="fileName != null and fileName != '' ">
+                fileName = #{fileName},
+            </if>
+            <if test="categoryLevel1Id != null">
+                categoryLevel1Id = #{categoryLevel1Id},
+            </if>
+            <if test="categoryLevel2Id != null ">
+                categoryLevel2Id = #{categoryLevel2Id},
+            </if>
+            <if test="categoryLevel3Id != null">
+                categoryLevel3Id = #{categoryLevel3Id},
+            </if>
+        </where>
+         where id= #{id}
+    </update>
+    <!--根据id删除-->
+    <delete id="deleteProductById">
+        delete from easybuy_product where id = #{id}
+    </delete>
+    <!--根据id查询-->
+    <select id="getProductById" resultMap="productList">
+        select * from easybuy_product where id = #{id}
+    </select>
+    <!--根据条件查询列表-->
+    <select id="getProductList" resultMap="productList">
+        select * from easybuy_product
+        <where>
+            <if test="proName!= null and proName !=''">
+                and name like concat('%',#{proName},'%')
+            </if>
+            <if test="categoryId != null">
+                and categoryLevel1Id = #{categoryId} or categoryLevel2Id=#{categoryId} or categoryLevel3Id=#{categoryId}
+            </if>
+        </where>
+        limit #{currentPageNo},#{pageSize}
+    </select>
+    <!--统计-->
+    <select id="queryProductCount" resultType="int">
+        select count(*) count from easybuy_product
+        <where>
+            <if test="proName != null and proName != ''">
+                and name like concat('%',#{proName},'%')
+            </if>
+            <if test="categoryId != null">
+                and categoryLevel1Id = #{categoryId} or categoryLevel2Id=#{categoryId} or categoryLevel3Id=#{categoryId}
+            </if>
+        </where>
+    </select>
+</mapper>

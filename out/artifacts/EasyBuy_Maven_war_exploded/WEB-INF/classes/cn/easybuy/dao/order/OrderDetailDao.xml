@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.order.OrderDetailDao">
+    <resultMap id="orderDetailList" type="OrderDetail">
+        <id property="id" column="id"/>
+        <result property="orderId" column="orderId"/>
+        <result property="quantity" column="quantity"/>
+        <result property="cost" column="cost"/>
+        <result property="productId" column="productId"/>
+    </resultMap>
+    <resultMap id="fullOrderDetailList" type="OrderDetail" extends="orderDetailList">
+        <association property="product" javaType="Product" resultMap="cn.easybuy.dao.product.ProductDao.productList"/>
+    </resultMap>
+    <!--添加-->
+    <insert id="add">
+        insert into easybuy_order_detail(orderId,productId,quantity,cost)
+        values(#{orderId},#{productId},#{quantity},#{cost})
+    </insert>
+    <!--删除-->
+    <delete id="deleteById">
+        delete from easybuy_order_detail where id = #{id}
+    </delete>
+    <!--根据id查询列表-->
+    <select id="getOrderDetailById" resultMap="orderDetailList">
+        select orderId,productId,quantity,cost from easybuy_order_detail where id = #{id}
+    </select>
+    <!--根据orderId查询列表-->
+    <select id="getOrderDetailList" resultMap="orderDetailList">
+         select id,orderId,productId,quantity,cost FROM easybuy_order_detail
+         <where>
+             <if test="_parameter != null ">
+                 orderId = #{orderId}
+             </if>
+         </where>
+    </select>
+    <select id="queryOrderDetailCount" resultType="int">
+        select count(*) FROM easybuy_order_detail
+    </select>
+</mapper>

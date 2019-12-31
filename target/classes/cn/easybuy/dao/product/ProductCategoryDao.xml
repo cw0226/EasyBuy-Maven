@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.product.ProductCategoryDao">
+    <resultMap id="productCategoryList" type="ProductCategory">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="parentId" column="parentId"/>
+        <result property="type" column="type"/>
+        <result property="iconClass" column="iconClass"/>
+        <result property="parentName" column="parentName"/>
+    </resultMap>
+    <!--根据id删除商品-->
+    <delete id="deleteById">
+        delete from easybuy_product_category where id = #{id}
+    </delete>
+    <!--根据条件查询商品列表-->
+    <select id="queryProductCategorylist" resultMap="productCategoryList">
+        SELECT epc1.*,epc2.name as parentName FROM easybuy_product_category epc1 LEFT JOIN easybuy_product_category epc2 ON epc1.parentId=epc2.id
+        <where>
+            <if test="name != null and name != ''">
+                and epc1.name like #{name}
+            </if>
+            <if test="parentId != null and parentId != ''">
+                and epc1.parentId = #{parentId}
+            </if>
+            <if test="type != null">
+                and epc1.type = #{type}
+            </if>
+        </where>
+        <if test="isPage">
+            limit #{startIndex},#{pageSize}
+        </if>
+    </select>
+    <!--根据id查询商品分类-->
+    <select id="queryProductCategoryById" resultMap="productCategoryList">
+        SELECT id,name,parentId,type,iconClass  FROM easybuy_product_category where id = #{id}
+    </select>
+    <!--添加商品分类-->
+    <insert id="add">
+        INSERT into easybuy_product_category(`name`,parentId,`type`,iconClass)
+        values(#{name},#{parentId},#{type},#{iconClass})
+    </insert>
+    <!--根据参数查询商品分类的数目-->
+    <select id="queryProductCategoryCount" resultType="int">
+        SELECT count(*) count FROM easybuy_product_category
+        <where>
+            <if test="name != null and name !=''">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="parentId != null">
+                and parentId = #{parentId}
+            </if>
+        </where>
+    </select>
+    <!--修改商品分类-->
+    <update id="update">
+         UPDATE easybuy_product_category
+          <set>
+              <if test="name!= null and name != ''">
+                  name=#{name},
+              </if>
+              <if test="parentId!= null ">
+                  parentId=#{parentId},
+              </if>
+              <if test="type!= null">
+                  type=#{type},
+              </if>
+              <if test="iconClass!= null and iconClass != ''">
+                  iconClass=#{iconClass},
+              </if>
+          </set>
+         WHERE id =#{id}
+    </update>
+</mapper>

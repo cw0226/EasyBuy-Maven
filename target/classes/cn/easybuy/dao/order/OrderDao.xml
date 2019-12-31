@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.order.OrderDao">
+    <resultMap id="orderList" type="Order">
+        <id property="id" column="id" />
+        <result property="userId" column="userId"/>
+        <result property="loginName" column="loginName"/>
+        <result property="userAddress" column="userAddress"/>
+        <result property="createTime" column="createTime"/>
+        <result property="cost" column="cost"/>
+        <result property="serialNumber" column="serialNumber"/>
+    </resultMap>
+    <!--添加-->
+    <insert id="add">
+       insert into easybuy_order(userId,loginName,userAddress,createTime,cost,serialNumber)
+        values(#{userId},#{loginName},#{userAddress},#{createTime},#{cost},#{serialNumber})
+    </insert>
+    <!--删除-->
+    <delete id="deleteById">
+        delete from easybuy_order where id = #{id}
+    </delete>
+    <!--根据id查询-->
+    <select id="getOrderById" resultMap="orderList">
+        select * from easybuy_order where id = #{id}
+    </select>
+    <!--查询列表-->
+    <select id="getOrderList" resultMap="orderList">
+        select * from easybuy_order
+        <where>
+            <if test="userId != null">
+                    userId = #{userId}
+            </if>
+        </where>
+        limit #{currentPageNo},#{pageSize}
+    </select>
+    <!--统计-->
+    <select id="count" resultType="Integer">
+        select count(1) count from easybuy_order
+        <where>
+            <if test="_parameter != null ">
+                userId = #{userId}
+            </if>
+        </where>
+    </select>
+</mapper>
