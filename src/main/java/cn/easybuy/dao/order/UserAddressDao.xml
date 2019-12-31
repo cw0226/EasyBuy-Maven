@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.order.UserAddressDao">
+    <resultMap id="userAddressList" type="UserAddress">
+        <id property="id" column="id" />
+        <result property="userId" column="userId"/>
+        <result property="address" column="address"/>
+        <result property="createTime" column="createTime"/>
+        <result property="remark" column="remark"/>
+    </resultMap>
+    <select id="queryUserAddressList" resultMap="userAddressList">
+         select * from easybuy_user_address
+         <where>
+             <if test="userId != null ">
+                 and userId = #{userId}
+             </if>
+             <if test="address != null and address != ''">
+                 and  address like concat('%',#{address},'%')
+             </if>
+         </where>
+         <if test="sort != null and sort != ''">
+             order by #{sort}
+         </if>
+         <if test="isPage">
+            limit #{startIndex},#{pageSize}
+         </if>
+    </select>
+    <insert id="add" >
+        INSERT into easybuy_user_address(userId,address,createTime,isDefault,remark)
+        VALUES(#{userId},#{address},#{createTime},#{isDefault},#{remark})
+    </insert>
+    <!--根据id查询列表-->
+    <select id="getUserAddressById" resultMap="userAddressList">
+        select * from easybuy_user_address where id = #{id}
+    </select>
+</mapper>
